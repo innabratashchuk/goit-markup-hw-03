@@ -101,7 +101,8 @@ img {
 /* hero */
 .hero {
     background-color: #2e2f42;
-    padding: 188px;
+    padding-top: 188px;
+    padding-bottom: 188px;
     
 }
 
@@ -127,7 +128,7 @@ img {
     border: none;
     display: block;
     border-radius: 4px;
-        width: 169px;
+        min-width: 169px;
         height: 56px;
         
     
@@ -223,7 +224,7 @@ img {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-    padding-bottom: 8px;
+    margin-bottom: 8px;
 }
 
 .team-list-text {
@@ -242,6 +243,9 @@ img {
 }
 .footer-logo .logo-part {
     color: #f4f4fd;
+    
+}
+.footer-logo {
     display: inline-block;
     margin-bottom: 16px;
 }
@@ -304,4 +308,8 @@ background: #fff;
 .section-subtitle-text {
     padding-top: 32px;
     padding-bottom: 32px;
+}
+.portfolio-subtitle-text {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
 }
