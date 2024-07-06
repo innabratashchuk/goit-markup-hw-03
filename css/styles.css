@@ -139,8 +139,8 @@ img {
 /* hero */
 /* features */
 .features {
-    padding-top: 188px;
-    padding-bottom: 188px;
+    padding-top: 120px;
+    padding-bottom: 120px;
 
 }
 .visually-hidden {
@@ -151,6 +151,8 @@ img {
         border: 0;
         padding: 0;
         white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
         overflow: hidden;
 }
 .features-list {
@@ -312,4 +314,5 @@ background: #fff;
 .portfolio-subtitle-text {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
+    border-top: none;
 }
