@@ -125,6 +125,8 @@ img {
     color: #fff;
     background-color: #4D5AE5;
     cursor: pointer;
+    margin: auto;
+    margin-top: 48px;
     border: none;
     display: block;
     border-radius: 4px;
