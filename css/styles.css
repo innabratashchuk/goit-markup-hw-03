@@ -114,6 +114,7 @@ img {
     text-align: center;
     color: #fff;
     max-width: 496px;
+    margin: auto;
 }
 
 .hero-btn {
@@ -124,14 +125,12 @@ img {
     color: #fff;
     background-color: #4D5AE5;
     cursor: pointer;
-    margin-top: 48px;
     border: none;
     display: block;
     border-radius: 4px;
         min-width: 169px;
         height: 56px;
         
-    
 }
 .hero-btn:hover, :focus {
     background-color: #404BBF;
